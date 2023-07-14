@@ -1,0 +1,17 @@
+.primary-button {
+  width: 100%;
+  height: 50px;
+  border-radius: var(--br-xs);
+  background-color: var(--c-ocean);
+  border: 2px solid var(--c-ocean);
+  cursor: pointer;
+  font-size: var(--text-s);
+  font-weight: 600;
+  letter-spacing: 1px;
+  color: var(--c-mono-0);
+  transition: .2s ease;
+}
+
+.primary-button:hover {
+  box-shadow: var(--box-shadow-ocean);
+}

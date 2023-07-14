@@ -1,0 +1,26 @@
+.form-sign-in {
+  width: 100%;
+  max-width: 400px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 18px;
+}
+
+.form-sign-in__title {
+  width: 100%;
+  text-align: start;
+}
+
+.form-sign-in__invalidate {
+  font-weight: 600;
+  color: var(--c-error);
+}
+
+.form-sign-in__fields {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 18px;
+}
